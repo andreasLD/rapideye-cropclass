@@ -101,4 +101,29 @@ luc12_SN_4101$lc1_name =
                      ifelse(lc1 == 'B32', lc1_name == 'rapes',
                             ifelse(lc1 == 'E20', lc1_name == 'Grassland w/o shrubs',
                                    ifelse(lc1 == 'B23', lc1_name == 'Other rootcrops',
-#nötig: B15, B16, B41, B18, B55, B14, C10, A22, B22, B51, B53, E30, B71, B12, B21, B52, B31, C32, C22, A21, F40, E10, G20
+                                          ifelse(lc1 == 'B15', lc1_name == 'Oat',
+                                                 ifelse(lc1 == 'B16', lc1_name == 'Corn',
+                                                        ifelse(lc1 == 'B41', lc1_name == 'Pulses',
+                                                               ifelse(lc1 == 'B18', lc1_name == 'Triticale',
+                                                                      ifelse(lc1 == 'B55', lc1_name == 'Grassland',
+                                                                             ifelse(lc1 == 'B14', lc1_name == 'Rye',
+                                                                                    ifelse(lc1 == 'C10', lc1_name == 'Broadleaved Woodland',
+                                                                                           ifelse(lc1 == 'A22', lc1_name == 'Artificial Non-built up Areas',
+                                                                                                  ifelse(lc1 == 'B22', lc1_name == 'Sugar Beet',
+                                                                                                         ifelse(lc1 == 'B51', lc1_name == 'Clovers',
+                                                                                                                ifelse(lc1 == 'B53', lc1_name == 'Other Leguminous',
+                                                                                                                       ifelse(lc1 == 'E30', lc1_name == 'Spontaneously re-vegetated surfaces',
+                                                                                                                              ifelse(lc1 == 'B71', lc1_name == 'Apple Fruit',
+                                                                                                                                     ifelse(lc1 == 'B12', lc1_name == 'Durum Wheat',
+                                                                                                                                            ifelse(lc1 == 'B21', lc1_name == 'Potatoes',
+                                                                                                                                                   ifelse(lc1 == 'B52', lc1_name == 'Lucerne',
+                                                                                                                                                          ifelse(lc1 == 'B31', lc1_name == 'Sunflower',
+                                                                                                                                                                 ifelse(lc1 == 'C32', lc1_name == 'Pine dominated mixed Woodland',
+                                                                                                                                                                        ifelse(lc1 == 'C22', lc1_name == 'Pine dominated coniferous Woodland',
+                                                                                                                                                                               ifelse(lc1 == 'A21', lc1_name == 'Artificial Non-built up Areas',
+                                                                                                                                                                                      ifelse(lc1 == 'F40', lc1_name == 'Other bare soil',
+                                                                                                                                                                                             ifelse(lc1 == 'E10', lc1_name == 'Grassland with sparse tree/shrub cover',
+                                                                                                                                                                                                    ifelse(lc1 == 'G20', lc1_name == 'inland running water')))))))))))))))))))))))))))))
+                                                                                                                                                                                                           
+                                                                                                                                                                 
+
