@@ -1,9 +1,12 @@
 require(sf)
 require(RPostgreSQL)
 require(postGIStools)
-prj = "/home/andreas/Documents/UBA/Project/R" # Enter path to DB_access.R here!
-RSdatadir = '/home/andreas/Documents/OTHER_PROJECTS/RapidEye/data'
-source(file.path(prj, "src", "DB_access.R"))
+require(DBI)
+wd <- ("C:/Users/Ken Mauser/Desktop/Studium Landau/Projekt Umweltwissenschaften")
+setwd(wd)
+prj = "C:/Users/Ken Mauser/Desktop/Studium Landau/Projekt Umweltwissenschaften/RapidProject" # Enter path to DB_access.R here!
+RSdatadir = 'C:/Users/Ken Mauser/Desktop/Studium Landau/Projekt Umweltwissenschaften/RapidEye'
+source(file.path(prj, "src", "DB_access_ken.R"))
 
 #### data ####
 ## regions, catchments, atkis
@@ -98,4 +101,4 @@ luc12_SN_4101$lc1_name =
                      ifelse(lc1 == 'B32', lc1_name == 'rapes',
                             ifelse(lc1 == 'E20', lc1_name == 'Grassland w/o shrubs',
                                    ifelse(lc1 == 'B23', lc1_name == 'Other rootcrops',
-
+#nötig: B15, B16, B41, B18, B55, B14, C10, A22, B22, B51, B53, E30, B71, B12, B21, B52, B31, C32, C22, A21, F40, E10, G20
