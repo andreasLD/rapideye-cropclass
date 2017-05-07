@@ -123,7 +123,7 @@ luc12_SN_4101$lc1_name =
                                                                                                                                                                                ifelse(lc1 == 'A21', lc1_name == 'Artificial Non-built up Areas',
                                                                                                                                                                                       ifelse(lc1 == 'F40', lc1_name == 'Other bare soil',
                                                                                                                                                                                              ifelse(lc1 == 'E10', lc1_name == 'Grassland with sparse tree/shrub cover',
-                                                                                                                                                                                                    ifelse(lc1 == 'G20', lc1_name == 'inland running water')))))))))))))))))))))))))))))
+                                                                                                                                                                                                    ifelse(lc1 == 'G20', lc1_name == 'inland running water', NA)))))))))))))))))))))))))))))
                                                                                                                                                                                                            
                                                                                                                                                                  
 
